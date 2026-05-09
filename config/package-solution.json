@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "frcc-forms-spfx-portal-v5-client-side-solution",
+    "id": "81e15db0-6a06-4c58-8997-6578298588bc",
+    "version": "5.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FRCC Forms Portal V5"
+      },
+      "longDescription": {
+        "default": "FRCC Forms Portal V5"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "FRCC Forms Portal V5 Feature",
+        "description": "Feature for FRCC Forms Portal V5.",
+        "id": "5082fceb-a580-4a71-b64f-9001a1313586",
+        "version": "4.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/frcc-forms-spfx-portal-v5.sppkg"
+  }
+}
+

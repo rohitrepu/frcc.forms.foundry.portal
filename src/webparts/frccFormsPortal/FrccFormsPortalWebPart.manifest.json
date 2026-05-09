@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "bc734367-3347-4726-a719-ae8320d1f20d",
+  "alias": "FrccFormsPortalV5WebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "FRCC Forms Portal V5"
+      },
+      "description": {
+        "default": "FRCC Forms Portal V5"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "FRCC Forms Portal V5"
+      }
+    }
+  ]
+}
+
