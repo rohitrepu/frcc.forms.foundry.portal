@@ -1,4 +1,5 @@
 import * as React from "react";
+import FoundryAssistantPanel from '../../../ai/FoundryAssistantPanel';
 import { SPHttpClient, SPHttpClientResponse } from "@microsoft/sp-http";
 import { SPPermission } from "@microsoft/sp-page-context";
 import styles from "./FrccFormsPortal.module.scss";
